@@ -1,0 +1,28 @@
+//server//
+(base) C:\User\iqbal>cd anaconda3
+(base) C:\User\iqbal\anaconda3>server.py
+^C
+(base) C:\User\iqbal\anaconda3>
+(base) C:\User\iqbal\anaconda3>python server.py
+Host: localhost
+Port: 0001
+New connection at ID 0 ('127.0.0.1', 58877)
+New connection at ID 1 ('127.0.0.1', 58883)
+ID 0: Hai Iqbal! Apa kabar?
+ID 0: Hai aini, kabar baik :)
+
+//client 1//
+(base) C:\User\iqbal>cd anaconda3
+(base) C:\User\iqbal\anaconda3>python server.py
+Host: localhost
+Port: 0001
+Hai Iqbal! Apa kabar?
+Hai aini, kabar baik :)
+
+//client 2//
+(base) C:\User\iqbal>cd anaconda3
+(base) C:\User\iqbal\anaconda3>python server.py
+Host: localhost
+Port: 0001
+Hai Iqbal! Apa kabar?
+Hai aini, kabar baik :)
